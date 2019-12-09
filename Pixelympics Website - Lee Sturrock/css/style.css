@@ -1,0 +1,154 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+/* CSS Document */
+
+h1{
+	color:#6183cb;
+	font-family:'Montserrat', sans-serif;
+	font-size:3em;
+	font-weight:400;
+}
+h2{
+	color:#fff;
+	font-family:'Montserrat', sans-serif;
+	font-size:2.2em;
+}
+h3{
+	font-family:'Montserrat', sans-serif;
+	color:#fff
+}
+h4{
+	font-family:'Montserrat', sans-serif;
+	color:#FFF;
+}
+li{
+	font-family:'Montserrat', sans-serif;
+	color:#FFF;
+}
+p{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+li{
+	color:#fff;
+}
+form{
+	color:#D5D5D5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+}
+body{
+	background-color:#0c1a2e;
+	color:#fff;
+}
+.container{
+	margin: 4% auto;
+}
+#icon{
+	max-width: 200px;
+	margin: 1% auto;
+}
+footer{
+	width:100%;
+	background-color:#2b579a;
+	padding: 5%;
+	color: #FFF;
+}
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover,
+.fa:focus{
+	color:#D5D5D5;
+	text-decoration:none;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+img.card-img-top
+{
+	border-radius: 50%;
+}
+ul#prioritylist {
+    padding: 0;
+    margin: 0;
+}
+ul#prioritylist li
+{
+	list-style-type: none;
+}
+ul#prioritylist li ul li{
+    background:url('../img/nestedwhite.png') 2px 4px no-repeat; 
+    display: list-item;
+    padding: 3px 3px 3px 17px;
+    list-style: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+#prioritylisttop
+{
+	color:green;
+}
+#prioritylistmid
+{
+	color:yellow;
+}
+#prioritylistlow
+{
+	color:red;
+}
+.table{
+	font-family:'Montserrat', sans-serif;
+}
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  border: 0.5px solid #fff;
+  background-color:#0c1a2e;
+  color: #fff;
+}
+.noHover{
+    pointer-events: none;
+}
+#bluetext
+{
+	color:#6183cb;
+}
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }   
+}
+@media (max-width: 600px){
+	.carousel-caption{
+		display:none;
+	}
+	#icon{
+		max-width: 150px;
+	}
+	h4{
+		font-size:1.7em;
+	}
+}
+@media (max-width: 900px){
+	.fa{
+		font-size:20px;
+		padding:10px;
+	}
+	.join{
+		font-size:20px;
+		padding:10px;	
+	}
+}

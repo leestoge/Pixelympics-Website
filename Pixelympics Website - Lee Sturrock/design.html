@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Universal Transformation Format 8 bit - is tha standard character set for the WWW -->
+  <meta charset="utf-8">
+  <title>Pixelympics - Design</title>
+
+  <!-- add a viewport meta tag to enable touch zooming and ensure proper rendering on mobile devices -->
+  <!-- sets the width of the page to be the same screen-width of the device being used -->
+  <!-- and sets the initial zoom level when the page is first loaded -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <!-- includes to the minimised version of the Bootstrap CSS and js libraries -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link href="css/style.css" rel="stylesheet"/>
+	<link href="css/nav.css" rel="stylesheet"/>
+    
+  <!-- a fix for old IE browser versions where there was little to no support for HTML5 elements and other HTML5 features  --> 
+  <!-- allows versions of Internet Explorer prior to version 9 to recognize the HTML5 tags and allows them to be styled using CSS -->
+  <!--[if lt IE 9]->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> 
+    </script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar" role="navigation">
+	<div class="navbar-header">
+		<button type="button" data-target="#myNavbar" data-toggle="collapse" class="navbar-toggle">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="home.html"><img src="img/pixelympics.png"></a>
+	</div>
+	<div id="myNavbar" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav navbar-center">
+			<li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>			
+			<li><a href="game.html"><span class="glyphicon glyphicon-flash"></span> Game</a></li>
+			<li class="active"><a href="design.html"><span class="glyphicon glyphicon-wrench"></span> Design</a></li>
+			<li><a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Game Design</h1>
+			</div>
+			<h3 id="bluetext">Game overview</h3>
+		</div>
+		<div class="col-md-6">	
+			<p>Pixelympics is a local multiplayer casual/party type of game meant as a simple portable time waster that can be just jumped in and played. It has obvious inspirations from the Olympic Games
+			and plays out as such, which each minigame featured being a caricature of its real life counterpart. It is planned to be playable by all, as we have designed the gameplay, UI and overall graphics design 
+			to be simplistic and easy to visualise and pick up, this resulted in our choice of a pixel art style - hence the name Pixelympics.</p>
+			<p>The gameplay will be different depending on what the current
+			minigame demands, in the shooting minigame the players will have to diligently control a firearm using set keys on the keyboard in order to hit flying discuses. In the sprint minigame, the 
+			players will be tasked with pressing the corresponding on-screen shown keyboard keys as fast as possible in order to progress and finish the race before their opponent. We feel these
+			simplistic control schemes help us achieve our goal of a game that can reach all audiences, and we hope it also teaches us about acessibility and things of that nature so that we
+			can continue to make our future projects more playable for everyone.</p>			
+		</div>
+		<div class="col-md-6">
+			<img src="img/placeholder1.png" class="img-responsive">
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="img/olympics.jpg" class="img-responsive">
+		</div>
+		<div class="col-md-6">	
+			<h3 id="bluetext">Game concept</h3>
+			<p>Our first thought was that we wanted to make a simple game that could be played locally and quickly with another player to quickly kill some time. This idea came from experiences of extended gaps in between classes 
+			wishing there was something we could do to pass the time. We expanded the idea further by deciding to create multiple different competitive minigames each testing a different feat or skill from the players. 
+			Naturally the Olympic Games came to mind as they too include multiple different events that demand a certain skill from the competitors. Inspiration for this game also came from other casual type sports games such as 
+			‘Wii Sports’ and ‘Mario & Sonic at the Olympic Games’</p>			
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Business Model & Games Development Life Cycle</h1>
+			</div>
+			<p>We weighed all our options and considered the various life cycles and what one would suit our development the most, 
+			but decided to settle on using the Agile life cycle as we had already applied some of its aspects, such as our prioritisation of minigames and features. The agile methodology is similar to the standard waterfall methodology 
+			as it follows the same sequence of stages – “Planning”, “Analysis”, “Design”, “Implementation”, “Testing” and “Maintenance”. However, this method aims to catch problems early by releasing multiple iterations of the same project 
+			rapidly with small incremental changes for testing, catching issues early in development before they become a bigger one further down the line. This ultimately allows us to make changes if we know something in the game won’t work before 
+			it’s too late.</p>
+			
+			<div class="container-fluid text-center">
+				<img src="img/agile.png">
+			</div>
+			<br>
+			<p>We feel the Agile life cycle will help us greatly in working together towards our shared goals, as when we come in to the labs we do generally work on individual tasks with gradual input from each other along the way. 
+			This could be described as the ‘sprints’ featured in the Agile life cycle and are done as such, one task seen through to completion and then another is moved on to, all while working down the priority list. We for-see this working well 
+			when designing specific parts of our game, one person can work on the UI, while another programs the mechanics for example, then at the end of the day it is compiled together and (hopefully) uploaded to GitHub for further analysis/developments.</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h3 id="bluetext">Plot</h3>
+			<p>The game is completely void of any plot or narrative outside of the players own scenarios/narratives, it is simply meant to be a casual, but at the same time competitive minded game as the players strive to earn the most points. 
+			The only plot that would be featured would be supplied by the players own rivalry and banter as they compete against one another, however we do hope our game ultimately sparks fun and healthy rivalry/banter as opposed to toxicity.</p>		
+		</div>
+		<div class="col-md-6">
+			<img src="img/placeholder2.png" class="img-responsive">
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Gameplay</h1>
+			</div>
+			<p>The gameplay will vary between each different Olympic event but will not be overly complicated in terms of controls or rules as to confuse the players. We plan to create a minimum of 4 different minigames as a baseline for the 
+			game but plan to add in more depending on how much time we have. Below is a priority list of what different minigames we want to add and what features we will need to implement for each of them to work.</p>
+		</div>
+		<div class="col-md-3">
+		<!-- spacing -->
+		</div>
+		<div class="col-md-2">
+		<ul id="prioritylist">
+				<li id="prioritylisttop"> High priority
+					<ul>
+						<li> Sprint </li>
+						<li> Archery </li>
+						<li> Shooting </li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+		<ul id="prioritylist">
+				<li id="prioritylistmid"> Medium priority
+					<ul>
+						<li> Volleyball </li>
+						<li> Triathalon </li>
+						<li> Javelin </li>
+						<li> Player interference <li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+		<ul id="prioritylist">
+				<li id="prioritylistlow"> Low priority
+					<ul>
+						<li> High jump </li>
+						<li> Long jump </li>
+						<li> Swimming </li>
+					</ul>
+				</li>
+			</ul>
+		</div>	
+		<div class="col-md-3">
+		<!-- spacing -->
+		</div>
+		<div class="col-md-12">
+			<p>The structure of the game is fairly simplistic and linear. In each minigame the player will have to compete locally with another player trying to gain the most points depending on how many rounds they decide to play. 
+			This will conclude with the player with the most points being declared victorious and therefore completing that minigame. We expect the players of the game to have a good time and have potential for some friendly banter with one another, 
+			an all round fun experience.</p>
+		</div>						
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Game Interface Design</h1>
+			</div>
+			<p>For the games interface design we took a lot of inspiration from Castle Crashers, Battleblock Theater, and Paper Mario. All of these inspirations feature a cute, concise and colourful design we feel would be well fitted for our game. 
+			We ultimately want an easy to read and understandable interface for our game in order to fit our desire to reach all audiences, so we took into account accessibility, legibility, age gaps, and other such things. 
+			Below is a list of key rules we plan to follow throughout our game’s interface design.</p>
+		</div>	
+		<div class="col-md-4">
+		<!-- spacing -->
+		</div>
+		<div class="col-md-4">
+			<ul id="prioritylist">
+				<li>
+					<ul>
+						<li> Simple, clear and uncluttered </li>
+						<li> Sans-Serif fonts for easier readability </li>
+						<li> Colourful and bright </li>
+					</ul>
+				</li>								
+			</ul>
+			<br>
+		</div>
+		<div class="col-md-4">
+		<!-- spacing -->
+		</div>
+		<div class="col-md-12">
+			<p>We also created a few mock up designs for how we envision our game’s UI will be laid out, this can be seen on the following image:- </p>
+			
+			<div class="container-fluid text-center">
+				<img src="img/mockui.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="img/placeholder3.png" class="img-responsive">
+		</div>
+		<div class="col-md-6">	
+			<h3 id="bluetext">Game Environment/Level Design</h3>
+			<p>Each event will all consist of simple, pixelated background sets, with the players clearly in the foreground performing whatever task the current level requires, in addition to this the events will have various prop assets 
+			that are also in the foreground to help bring the scene together. The level design, or lack thereof, will be very linear in the sense that the player will rarely leave the set stage for whatever gamemode they are playing however 
+			the background may scroll to follow an object such as an arrow in the Archery event or players in the Sprint event. The game’s environment will try to match that of a packed Olympic stadium with simple animated backgrounds 
+			to represent the fans and each event being immediately recognisable to real life Olympic sports.</p>			
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Requirements Specification</h1>
+			</div>
+			<p>To aid in planning our game we have wrote up an initial requirements specification, featuring a functional and non-functional requirements list as well as a table showing our perceived idea of our assets that would be required. 
+			This may change or be obsolete later in development, but it has aided us in finalizing some ideas at this stage in development.</p>
+		</div>
+		<div class="col-md-2">
+		<!-- spacing -->
+		</div>		
+		<div class="col-md-4">
+			<h3 id="bluetext">Functional</h3>
+			<ul id="prioritylist">
+				<li>
+					<ul>
+						<li> Simplistic control schemes </li>
+						<li> Responsive controls </li>
+						<li> At least 4 minigames </li>
+						<li> Consistent point system </li>
+						<li> Point addition system </li>
+						<li> Collide-able projectiles </li>
+					</ul>
+				</li>								
+			</ul>
+			<br>
+		</div>
+		<div class="col-md-4">
+			<h3 id="bluetext">Non-Functional</h3>
+			<ul id="prioritylist">
+				<li>
+					<ul>
+						<li> Olympic/sports pixel esque theme </li>
+						<li> Game logo </li>
+						<li> Player character assets/animations </li>
+						<li> Player character sounds </li>
+						<li> Minigame specific sounds </li>
+						<li> Minigame background scene assets/animations </li>
+						<li> Minigame specific assets/animations </li>
+						<li> User interface elements </li>
+						<li> User interface elements animations </li>
+						<li> Minigame stage music </li>
+						<li> Main menu </li>
+						<li> Main menu animated background </li>
+						<li> Main menu button assets/animations </li>
+						<li> Pause menu </li>
+						<li> Pause menu button assets/animations </li>
+					</ul>
+				</li>								
+			</ul>
+			<br>
+		</div>
+		<div class="col-md-2">
+		<!-- spacing -->
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">
+				<h1 id="bluetext">Assets required</h1>
+			</div>
+			<table class="table table-bordered">
+			  <thead>
+				<tr>
+				  <th scope="col"><h4 id="bluetext">Models/Graphics</h4></th>
+				  <th scope="col"><h4 id="bluetext">Textures/Colours</h4></th>
+				  <th scope="col"><h4 id="bluetext">Sounds/Music</h4></th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">Player character(s)</th>
+				  <td>Player character(s)</td>
+				  <td>Player character </td>
+				</tr>
+				<tr>
+				  <th scope="row">Game logo</th>
+				  <td>Minigame background scene assets</td>
+				  <td>Minigame specific </td>
+				</tr>
+				<tr>
+				  <th scope="row">User interface(s)</th>
+				  <td>Minigame specific assets</td>
+				  <td>Main menu</td>
+				</tr>
+				<tr>
+				  <th scope="row">Minigame background scene assets</th>
+				  <td>Main menu button(s)</td>
+				  <td>Pause menu</td>
+				</tr>
+				<tr>
+				  <th scope="row">Minigame specific assets</th>
+				  <td>Pause menu button(s)</td>
+				  <td></td>
+				</tr>
+				<tr>
+				  <th scope="row">Main menu button(s)</th>
+				  <td>Projectile(s)</td>
+				  <td></td>
+				</tr>
+				<tr>
+				  <th scope="row">Projectile(s)</th>
+				  <td></td>
+				  <td></td>
+				</tr>
+			  </tbody>
+			</table>		
+		</div>	
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h3 id="bluetext">Accessibility & Ease of Use</h3>
+			<p>As briefly touched upon before, our game is intended to be playable for everyone and so we have made certain gameplay and design choices to hopefully aid in reflecting that. 
+			A few of these I can highlight at this stage in development are our planned user interface choices, a proven legible font, having it clear and uncluttered, the concept of having a points bar as opposed to text for easier understanding 
+			(for those with reading issues, etc), and finally what we hope to be a widely accessible colour scheme. There are also a few gameplay and control choices I can highlight; with all our minigames being controlled by keyboard keys which 
+			allows for an easier time for those who may be less able to use a mouse or other more in depth control schemes, as well as our chosen artstyle being pixel dominant which we feel is easily understandable if done right and again we also hope 
+			to accompany it with a widely accessible colour scheme.</p>		
+		</div>
+		<div class="col-md-6">
+			<img src="img/acc.png" class="img-responsive">
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<img src="img/placeholder4.png" class="img-responsive">
+		</div>
+		<div class="col-md-6">	
+			<h3 id="bluetext">Game Features</h3>
+			<p>Our game is planned to have many features throughout its different minigames, this comes both in gameplay requirements/loops and in various game mechanics. In some minigames the players will be interacting with a prop and/or 
+			the environment/background set piece, in others the player may be directly interacting with the challenging player. A fun feature we’d like to implement is being able to distract the other player in-game during certain events to 
+			either throw off their aim or force them to miss a shot in Archery or Shooting. However this could have consequences on the player doing so such as being deducted points or being out right disqualified giving the other player an automatic win. 
+			If we are able to implement such a feature we feel it would be a good showing of player consequence while still fitting the casual feel and design of our game.</p>
+			<p>Throughout the game the player will interact with props and the environment in a realistic fashion with some over embellishment or emphasis on some aspects. For example the player firing an arrow in the archery minigame 
+			will feature many particle and graphic effects to help give the arrow shots more of an impactful feeling.</p>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 id="bluetext">Player Mechanics</h3>
+		</div>
+		<div class="col-md-6">		
+			<p>Our game mechanics are somewhat unique in that they change per minigame, in some button mashing is prominent, but in others accuracy and precision is required. To add this, our game is local multiplayer, 
+			but also coming with some unique altercations with some minigames being turn based and others being simultaneous.</p>
+			<p>There are plans for an in depth karma-esque mechanic to go along with our medium priority player interference mechanic, but as it’s not a top priority, we are not sure we can see it through to completion 
+			so we don’t want to embellish on it too much. Our concept for how it would work would be as follows; If a player interferes a set amount of times then it is determined (possibly by a random number generator) whether or not they are going to be 
+			disqualified, resulting in the other player automatically winning the minigame. However on the flipside, throwing off the challenging players crucial attempts as they are already ahead could result in the interfering player getting an edge and 
+			ultimately coming out on top. We feel this would be a unique mechanic and memorable feature within the game, but as mentioned before, we are unsure if we will be able to implement it due to our unfamiliarity with 
+			Javascript and the Phaser development environment.</p>
+			<p>As briefly touched on before, our game will conclude when a player has gained more points than the other, or a time limit has been reached. For example in our archery minigame the player would be given a set amount of 
+			arrows (5 or so) and would attempt to gain the most points they possibly can with them, if this resulted in a draw somehow the players would both be given an additional arrow. In our sprint gamemode, the winner would be declared 
+			when someone simply wins the race.</p>
+		</div>
+		<div class="col-md-6">
+			<img src="img/placeholder1.png" class="img-responsive">
+		</div>
+	</div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <footer class="container-fluid text-center"> <!-- START OF FOOTER-->
+	<div class="row">
+		<div class="col-sm-6">
+			<h2>Contact Us</h2>
+			<br>
+			<h4>feedback@pixelympics.co.uk</h4>
+			<br>
+			<h4>Paisley Campus, High St, PA1 2BE</h4>
+			<br>
+			<h4>0141 848 3000</h4>
+		</div>
+		<div class="col-sm-6">
+			<h2>Connect with Us</h2>
+			<br>
+			<h4>Follow us at our social media links below!</h4>
+			<br>
+			<a href='#' class="fa fa-facebook"></a>
+			<a href='#' class="fa fa-twitter"></a>
+			<a href='#' class="fa fa-google"></a>
+			<a href='#' class="fa fa-linkedin"></a>
+			<a href='#' class="fa fa-youtube"></a>
+			<br>
+			<h4>Hope to see you in future developments</h4>
+		</div>
+	</div>
+  </footer> <!-- END OF FOOTER-->
+</body>
+</html>

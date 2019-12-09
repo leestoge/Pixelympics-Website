@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Universal Transformation Format 8 bit - is tha standard character set for the WWW -->
+  <meta charset="utf-8">
+  <title>Pixelympics - Game</title>
+
+  <!-- add a viewport meta tag to enable touch zooming and ensure proper rendering on mobile devices -->
+  <!-- sets the width of the page to be the same screen-width of the device being used -->
+  <!-- and sets the initial zoom level when the page is first loaded -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <!-- includes to the minimised version of the Bootstrap CSS and js libraries -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link href="css/style.css" rel="stylesheet"/>
+	<link href="css/nav.css" rel="stylesheet"/>
+	<script src="js/phaser.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/util/UIBlock.js"></script>
+    <script src="js/util/align.js"></script>
+    <script src="js/util/alignGrid.js"></script>
+    <script src="js/shootingMain.js"></script>
+    <script src="js/shootingMainOver.js"></script>
+    
+  <!-- a fix for old IE browser versions where there was little to no support for HTML5 elements and other HTML5 features  --> 
+  <!-- allows versions of Internet Explorer prior to version 9 to recognize the HTML5 tags and allows them to be styled using CSS -->
+  <!--[if lt IE 9]->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> 
+    </script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar" role="navigation">
+	<div class="navbar-header">
+		<button type="button" data-target="#myNavbar" data-toggle="collapse" class="navbar-toggle">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="home.html"><img src="img/pixelympics.png"></a>
+	</div>
+	<div id="myNavbar" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav navbar-center">
+			<li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>			
+			<li><a href="game.html"><span class="glyphicon glyphicon-flash"></span> Game</a></li>
+			<li><a href="design.html"><span class="glyphicon glyphicon-wrench"></span> Design</a></li>
+			<li class="active"><a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Team -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container-fluid text-center">	
+				<noscript>You need to enable JavaScript to run this app.</noscript>
+				<div id='phaser-game'></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <footer class="container-fluid text-center"> <!-- START OF FOOTER-->
+	<div class="row">
+		<div class="col-sm-6">
+			<h2>Contact Us</h2>
+			<br>
+			<h4>feedback@pixelympics.co.uk</h4>
+			<br>
+			<h4>Paisley Campus, High St, PA1 2BE</h4>
+			<br>
+			<h4>0141 848 3000</h4>
+		</div>
+		<div class="col-sm-6">
+			<h2>Connect with Us</h2>
+			<br>
+			<h4>Follow us at our social media links below!</h4>
+			<br>
+			<a href='#' class="fa fa-facebook"></a>
+			<a href='#' class="fa fa-twitter"></a>
+			<a href='#' class="fa fa-google"></a>
+			<a href='#' class="fa fa-linkedin"></a>
+			<a href='#' class="fa fa-youtube"></a>
+			<br>
+			<h4>Hope to see you in future developments</h4>
+		</div>
+	</div>
+  </footer> <!-- END OF FOOTER-->
+</body>
+</html>

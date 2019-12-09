@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Universal Transformation Format 8 bit - is tha standard character set for the WWW -->
+  <meta charset="utf-8">
+  <title>Pixelympics - Home</title>
+
+  <!-- add a viewport meta tag to enable touch zooming and ensure proper rendering on mobile devices -->
+  <!-- sets the width of the page to be the same screen-width of the device being used -->
+  <!-- and sets the initial zoom level when the page is first loaded -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <!-- includes to the minimised version of the Bootstrap CSS and js libraries -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link href="css/style.css" rel="stylesheet"/>
+	<link href="css/nav.css" rel="stylesheet"/>
+    
+  <!-- a fix for old IE browser versions where there was little to no support for HTML5 elements and other HTML5 features  --> 
+  <!-- allows versions of Internet Explorer prior to version 9 to recognize the HTML5 tags and allows them to be styled using CSS -->
+  <!--[if lt IE 9]->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> 
+    </script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar" role="navigation">
+	<div class="navbar-header">
+		<button type="button" data-target="#myNavbar" data-toggle="collapse" class="navbar-toggle">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="home.html"><img src="img/pixelympics.png"></a>
+	</div>
+	<div id="myNavbar" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav navbar-center">
+			<li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>			
+			<li><a href="game.html"><span class="glyphicon glyphicon-flash"></span> Game</a></li>
+			<li><a href="design.html"><span class="glyphicon glyphicon-wrench"></span> Design</a></li>
+			<li><a href="about.html"><span class="glyphicon glyphicon-user"></span> About</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="container">
+	<div class="col-md-12">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>		<!--5 slides-->
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				<img src="img/placeholder1.png">
+				</div> <!--End Active-->
+					<div class="item">
+						<img src="img/placeholder2.png">
+					</div>
+					<div class="item">
+						<img src="img/placeholder3.png">
+					</div>
+					<div class="item">
+						<img src="img/placeholder4.png">
+					</div>
+					<div class="item">
+						<img src="img/placeholder5.png">
+					</div>
+			</div>
+			<!-- Start Slider Controls-->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div> <!-- End Slider -->
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h3 id="bluetext">About us...</h3>
+			<p>We are both students studying game development at the University of the West of Scotland, hopefully leading to a career in the creative industries. 
+			We are experienced in a variety of programming and web development languages, such as C#, C++, Java, HTML and CSS, 
+			however with this website submission we hope to further expand our web development skills. The goal of this website is to teach ourselves as we will make a casual/party game to host on it 
+			which will be created using Javascript and the Phaser development enviornment. There will be more personalized and in depth information about us on the "About" page of the website.</p>			
+		</div>
+		<div class="col-md-6">
+			<img src="img/UWS.png" class="img-responsive">
+		</div>
+	</div>
+</div>
+<div class="container text-center">
+	<h2 id="bluetext">Powered by</h2>
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="img/html5.png" id="icon">
+			<h4>HTML5</h4>
+		</div>
+		<div class="col-sm-3">
+			<img src="img/bootstrap.png" id="icon">
+			<h4>Bootstrap</h4>
+		</div>
+		<div class="col-sm-3">
+			<img src="img/css3.png" id="icon">
+			<h4>CSS3</h4>
+		</div>
+		<div class="col-sm-3">
+			<img src="img/javascript.png" id="icon">
+			<h4>Javascript</h4>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 id="bluetext">Here's the cool thing about Pixelympics...</h3>
+			<p>Pixelympics is a local multiplayer casual/party type of game meant as a simple portable time waster that can be just jumped in and played. It has obvious inspirations from the Olympic Games
+			and plays out as such, which each minigame featured being a caricature of its real life counterpart. It is planned to be playable by all, as we have designed the gameplay, UI and overall graphics design 
+			to be simplistic and easy to visualise and pick up, this resulted in our choice of a pixel art style - hence the name Pixelympics.</p>
+			<p>The gameplay will be different depending on what the current
+			minigame demands, in the shooting minigame the players will have to diligently control a firearm using set keys on the keyboard in order to hit flying discuses. In the sprint minigame, the 
+			players will be tasked with pressing the corresponding on-screen shown keyboard keys as fast as possible in order to progress and finish the race before their opponent. We feel these
+			simplistic control schemes help us achieve our goal of a game that can reach all audiences, and we hope it also teaches us about acessibility and things of that nature so that we
+			can continue to make our future projects more playable for everyone.</p>
+			<p>Furthermore, as previously touched upon we hope to further expand our overall game development skills and tools as we will be learning both a new programming language, Javascript, and a new
+			development enviornment called Phaser. We are new to a lot of aspects of web development and hope that our game and websites can be suitable to fit our goals of acessibility and a wide-spread
+			audience.</p>
+		</div>
+	</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <footer class="container-fluid text-center"> <!-- START OF FOOTER-->
+	<div class="row">
+		<div class="col-sm-6">
+			<h2>Contact Us</h2>
+			<br>
+			<h4>feedback@pixelympics.co.uk</h4>
+			<br>
+			<h4>Paisley Campus, High St, PA1 2BE</h4>
+			<br>
+			<h4>0141 848 3000</h4>
+		</div>
+		<div class="col-sm-6">
+			<h2>Connect with Us</h2>
+			<br>
+			<h4>Follow us at our social media links below!</h4>
+			<br>
+			<a href='#' class="fa fa-facebook"></a>
+			<a href='#' class="fa fa-twitter"></a>
+			<a href='#' class="fa fa-google"></a>
+			<a href='#' class="fa fa-linkedin"></a>
+			<a href='#' class="fa fa-youtube"></a>
+			<br>
+			<h4>Hope to see you in future developments</h4>
+		</div>
+	</div>
+  </footer> <!-- END OF FOOTER-->
+</body>
+</html>
